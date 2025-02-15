@@ -15,7 +15,7 @@ const App = () => {
         <ScrollView style={styles.container}> {/* ScrollView permite rolagem da tela caso necessário */}
             <View style={styles.view}> {/* Container para a imagem e o texto explicativo */}
                 <Image 
-                    source={require('./SenaiImg.png')} // Caminho da imagem 
+                   source={require('./assets/SenaiImg.png')} // Caminho da imagem 
                     style={styles.image} 
                 />
                 <Text style={styles.text}> {/* Texto explicativo sobre o app */}

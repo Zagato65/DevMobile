@@ -16,7 +16,7 @@ const App = () => { // Define o componente funcional App
   return ( // Retorna a interface do componente
     <View style={styles.container}> {/* Container principal */}
       <Image // Componente para exibir imagem
-        source={require('./SenaiImg.png')} // Caminho da imagem 
+        source={require('./assets/SenaiImg.png')} // Caminho da imagem 
         style={styles.logo}
       />
       <Text style={styles.titulo}>Exemplo Interativo</Text> {/* Título */}
