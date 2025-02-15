@@ -24,7 +24,7 @@ const App = () => {
         <ScrollView style={styles.container}> {/* ScrollView para permitir rolagem */}
             <View style={styles.header}> {/* Cabeçalho com imagem e título */}
                 <Image
-                    source={require('./SenaiImg.png')}
+                    source={require('./assets/SenaiImg.png')}
                     style={styles.image}
                 />
                 <Text style={styles.title}>Exemplo de App React Native</Text>
